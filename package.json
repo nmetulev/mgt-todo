@@ -1,0 +1,14 @@
+{
+  "name": "toolkit-todo",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "run-p serve tunnel",
+    "serve": "es-dev-server --port 3000 --open --watch",
+    "tunnel": "ngrok http -subdomain=mgt 3000"
+  },
+  "devDependencies": {
+    "es-dev-server": "^1.36.2",
+    "ngrok": "^3.2.7",
+    "npm-run-all": "^4.1.5"
+  }
+}
