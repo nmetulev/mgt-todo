@@ -1,10 +1,21 @@
 <html>
 <head>
+    <title>To-Do-licious</title>
+    <meta name="description" content="The best to-do application in the entire world - built with the Microsoft Graph Toolkit!">
+    <link rel="icon" type="image/jpg" href="icon.jpg">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
     <script src="https://unpkg.com/@microsoft/mgt/dist/bundle/mgt-loader.js"></script>
+
 </head>
 <body>
     <mgt-msal-provider client-id="a974dfa0-9f57-49b9-95db-90f04ce2111a"></mgt-msal-provider>
-    <mgt-login></mgt-login>
+    
+    <header>
+        <h1>To-Do-licious</h1>
+        <mgt-login></mgt-login>
+    </header>
+
     <mgt-tasks data-source=todo></mgt-tasks>
 </body>
 </html>

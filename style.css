@@ -1,0 +1,11 @@
+mgt-login {
+    position: absolute;
+    right: 0px;
+    top:0px;
+    margin: 8px;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    color: grey;
+}
